@@ -6,13 +6,18 @@
     <title>Manipulación del DOM Básica</title>
 </head>
 <body>
-    <h1>Manipulación del DOM Básica</h1>
+    <h1 pantalla="platzilg" color="verde">Manipulación del DOM Básica</h1>
 
     <p>Esto es un párrafo</p>
     <p class="parrafito">Esto es un párrafo con clase</p>
     <p id="pid">Esto es un párrafo con ID</p>
 
-    <input type="text" placeholder="Escribe algo aquí:" value="Texto de prueba...!!!">
+    <!---->
+    <input id="calculo1" placeholder="Escribe algo aquí:">
+    <input id="calculo2" onchange="console.log('cambió el input')" placeholder="Escribe algo aquí:">
+    <button id="btnCalcular" onclick="btnOnClick()">Calcular</button>
+
+    <p id="result"></p>
 
     <script src="./script.js"></script>
 </body>
