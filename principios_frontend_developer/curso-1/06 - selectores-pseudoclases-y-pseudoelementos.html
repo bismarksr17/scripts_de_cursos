@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    
     p {
       color: salmon;
     }
@@ -21,20 +22,24 @@
     p:hover {
       color: skyblue;
     }
+
+    /*color each two child*/
     div p:nth-child(2) {
       color: violet;
     }
+
+    /*placeholder of input*/
     ::placeholder {
       color: tomato;
     }
   </style>
 </head>
 <body>
-  <p>Hola</p>
+  <p>Hello</p>
   <div>
     <p>Platzi</p>
     <p>Master</p>
-    <p>Lo mejor</p>
+    <p>The best</p>
   </div>
   <input type="text" placeholder="name">
 </body>
